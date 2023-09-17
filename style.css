@@ -1,0 +1,146 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.myform {
+    text-align: center;
+    background-color: darkorchid;
+    color: #ffffff;
+}
+.myform > h1 {
+    margin: 0;
+}
+.myform > p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+#form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    padding-bottom: 2em;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+fieldset {
+    border: 2px blur #000000;
+    padding: 2rem 0;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+    font-size: large;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 98%;
+    min-height: 2em;
+}
+
+input, textarea {
+    background-color: beige;
+    border: 1px solid #0a0a23;
+}
+
+.ftwo > label {
+    margin: 0;
+}
+.ftwo > input {
+    margin: 0;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+p {
+    font-size: large;
+}
+
+.submit {
+    display: block;
+    width: 30%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    min-width: 200px;
+    background-color: white;
+    
+}
+.submit:hover {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+    color: #000000;
+    border-color: cyan;
+    background-color: cyan;
+}
+.reset {
+    display: block;
+    width: 30%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: white;
+    min-width: 200px;
+}
+.reset:hover {
+    box-shadow: 0 0 5px violet, 0 0 25px violet, 0 0 50px violet, 0 0 100px violet, 0 0 200px violet;
+    color: #000000;
+    border-color: violet;
+    background-color: violet;
+}
+
+.footer {
+    text-align: center;
+    background-color: aqua;
+    font-size: large;
+}
+
+.fone {
+    border-color: black;
+}
+.fone:hover {
+    box-shadow: 0 0 10px lightskyblue, 0 0 50px lightskyblue, 0 0 100px lightskyblue, 0 0 200px lightskyblue, 0 0 400px lightskyblue;
+    color: #000000;
+    border-color: lightskyblue;
+    background-color: lightskyblue;
+}
+
+.ftwo {
+    border-color: black;
+}
+.ftwo:hover {
+    box-shadow: 0 0 10px magenta, 0 0 50px magenta, 0 0 100px magenta, 0 0 200px magenta, 0 0 400px magenta;
+    color: #000000;
+    border-color: magenta;
+    background-color: magenta;
+}
+
+.fthree {
+    border-color: black;
+}
+.fthree:hover {
+    box-shadow: 0 0 10px mediumspringgreen, 0 0 50px mediumspringgreen, 0 0 100px mediumspringgreen, 0 0 200px mediumspringgreen, 0 0 400px mediumspringgreen;
+    color: #000000;
+    border-color: mediumspringgreen;
+    background-color: mediumspringgreen;
+}
+
+.ffour {
+    border-color: black;
+}
+.ffour:hover {
+    box-shadow: 0 0 10px slategrey, 0 0 50px slategrey, 0 0 100px slategrey, 0 0 200px slategrey, 0 0 400px slategrey;
+    color: #000000;
+    border-color: slategrey;
+    background-color: slategrey;
+}
